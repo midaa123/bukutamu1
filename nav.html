@@ -1,0 +1,96 @@
+<style type="text/css">
+.logo{
+    background-image: url(https://e7.pngegg.com/pngimages/965/2/png-clipart-computer-icons-guestbook-book-angle-text.png);
+    width: 40px;
+    margin: 4px 14px;
+    height: 40px;
+    background-size: 40px 40px;
+    border: solid 2px #666;
+    border-radius: 50px;
+    background-color: #fff
+}
+.navbar-left{
+    float:left;
+}
+.navbar-right{
+    float:right;
+    width:260px;
+    padding-right:10px;
+}
+.navbar{width:auto;
+    height:50px;
+    background:#444;
+    border-radius:2px;
+}
+ 
+.navbar ul{
+    float:left;
+    margin:0;
+    padding:0;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.navbar li a, .navbar li a:link {
+    float: left;
+    padding: 17px 12px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.navbar li a:hover{
+    background: #ddd;
+    color: #444;
+}
+.navbar li li a, .navbar li li a:link {
+    text-decoration: none;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    width: 108px;
+    padding: 0px 0px 0 12px;
+    font-size: 12px;
+    line-height: 35px;
+}
+.navbar li li a:hover{
+    background: #ddd;
+    color: #444
+}
+.navbar li ul{
+    z-index:9999;
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:120px;
+    margin-top:50px;
+    border:1px solid #666;
+}
+.navbar li:hover ul,
+.navbar li li:hover ul,
+.navbar li li li:hover ul{left:auto;}
+.navbar li:hover{position:auto;}
+li a#dropdown{
+    width: 96%;
+    height: 50%;
+    background-color: #9BC7D3;
+    padding-left :5px;
+}
+</style>
+ 
+ 
+<nav class="navbar">
+    <div class="navbar-left"><div class="logo"></div></div>
+    <li><a href="#">Buku Tamu</a></li>
+    <div class="navbar-right">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="lihat_buku.php">Data Pegawai</a></li>
+            <li><a href='#'>D.Keluar</a></li>
+        </ul>
+    </div>
+</nav>
